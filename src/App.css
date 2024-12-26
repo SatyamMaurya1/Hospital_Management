@@ -1,38 +1,259 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nbar{
+    z-index: 1000px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.re{
+    background-image: url("image/iitka.webp");
+    background-repeat: no-repeat;
+background-size: cover;
+height: 160vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.reg{
+    display: flex;
+    }
+
+.head{
+    padding: 0 40%;
+}
+.h{
+    z-index: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.border{
+    padding-left: -2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card1{
+margin-top: 10%;
+margin-left: 62%;
+margin-right: 5%;
+border-radius: 50%;
+}
+.su{
+    align-items: center;
+    padding: 5% 30%;
+}
+#sm-banner .banner-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+   min-width:48%; 
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    
+}
+#sm-banner{
+    display: flex;
+    padding-top: 0%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+#select{
+    display: flex;
+    padding-top: 0%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+
+#select input[type="radio"]{
+border: 1px solid;
+
+}
+.ih{
+    padding-top: 15% ;
+    padding-right: 13%;
+}
+
+#sm-banner li{
+    color:white;
+}
+ #sm-banner h2{
+    color: aqua;
+ }
+ #sm-banner p{
+    color: rgb(214, 223, 240);
+    font-weight: 200;
+ }
+
+#banner h2{
+    color: #fff;
+font-size: 30px;
+padding: 10px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.sibar{
+    list-style: none;
+    position: relative;
+    margin-right: 5%;
+    margin-left: 0;
+}
+
+
+#sm{
+    display: flex;
+    padding: 5% 8%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sm h3{
+    color: rgba(33, 181, 17, 0.888);
+    align-self: center;
+    text-shadow: 2px 1px rgb(18, 9, 94);
+    z-index: 500px;
+    font-weight: 600;
+}
+
+.sinfo{
+    padding-top: 5%;
+    margin-right: 70%;
+
+}
+.sibar li{
+    margin:2px;
+    padding:10px 11%;
+    background-color: rgb(29, 32, 29);
+    z-index: 900px;
+}
+.sibar i{
+    padding-right: 10px;
+}
+
+.txt{
+    
+    
+    height: 5vh; 
+
+
+}
+.side{
+    background-color: red;
+}
+
+.vappoint{
+    background-image: url(image/appoint.jpg);
+    height: 38vh;
+    background-size: cover;
+    min-width: 40%;
+    border-radius: 10%;
+}
+
+.appoint{
+    background-image: url(image/Designer.png);
+    height: 38vh;
+    background-size: cover;
+    min-width: 40%;
+    border-radius: 10%;
+}
+
+.white{
+    margin: 5%;
+    border-radius: 15%;
+    padding: 5px 15px;
+}
+
+.apbook{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+    min-width: 30%;
+}
+
+.c1{
+    margin-bottom: 2%;
+}
+
+.dropd{
+    padding: 0% 30%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+.proceed{
+    margin-bottom: 15%;
+    padding-right: 10%;
+}
+
+.details{
+    margin: 10%;
+}
+
+.dte{
+    padding-left:30% ;
+}
+
+.date{
+    border-radius:10%;
+    background-color: tomato;
+    color: white;
+}
+
+.slot{
+    display: flex;
+justify-content: space-between;
+padding: 1%;
+padding-bottom: 2%;
+border: 1px solid;
+border-radius: 2%;
+background-color: antiquewhite;
+}
+
+.time{
+    padding: 7% 57% 0% 2%;
+}
+
+.sbutton{
+    padding: 5px 6px;
+}
+
+#btn button{
+    background-color:green;
+    color: white;
+}
+
+
+.slot1{
+    margin-right: -525%;
+}
+
+
+.row label{
+   padding:5% 30%;
+   border: 1px solid;
+   border-radius: 30%;
+   
+}
+
+.slot2{
+    margin-right: -391%;
+    margin-left: -132%;
+}
+
+.bg{
+    color: whitesmoke;
+    background-color: rgb(32, 22, 22);
 }
